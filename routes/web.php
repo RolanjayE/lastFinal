@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RandomUserController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// this well be route for random user , have not yet regeister
+Route::get('/',[RandomUserController::class, "welcome"])->name("welcome");
+Route::get('/explore',[RandomUserController::class, "explore"])->name("explore");
+Route::get('/category',[RandomUserController::class, "category"])->name("category");
+
+
+
+
+
+Route::get('/admin-dashboard',[AdminController::class, "dashboard"])->name("dashboard");

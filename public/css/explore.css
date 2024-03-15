@@ -1,0 +1,43 @@
+.myBg {
+    background-color: rgb(253, 67, 67);
+}
+
+.myBtn {
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1.2rem;
+    transition: 0.4s ease-in-out;
+}
+
+.myBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.my-flex-two-wrap-reverse {
+    display: flex;
+}
+
+.explore-container {
+    height: 400px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+
+.my-flex-two-wrap-reverse > div {
+    width: 50%;
+}
+
+.my-flex-two-wrap-reverse > div {
+    object-fit: cover;
+}
+
+
