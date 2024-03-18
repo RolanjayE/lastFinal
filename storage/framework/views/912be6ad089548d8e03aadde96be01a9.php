@@ -79,7 +79,6 @@
                     <div class="flex-three-box d-flex">
                         <i id="flip" class="admin-menu fa-solid fa-bars mt-2 fs-4"></i>
                         <div class="img-admin-logo"><img style="width: 35px; height 35px" src="<?php echo e(asset('image/logo2.png')); ?>" alt=""></div>
-                        <p class="logoname">LAWAY <br>LAWAY</p>
                     </div>
                     <div class="flex-three-box center-header">
                         <ul>
@@ -115,6 +114,7 @@
                     <ul>
                         <li><a href=""><i class="fa-solid fa-comments"></i> Feedback</a></li>
                         <li><a href=""><i class="fa-solid fa-list"></i> Category</a></li>
+                        <li><a href=""><i class="fa-solid fa-list"></i> Refund</a></li>
                         <li><a href=""><i class="fa-solid fa-gear"></i> Settings</a></li>
                     </ul>
                 </div>
@@ -126,7 +126,7 @@
                         <div class="grid-three-box admin-yellow">
                             <p class="fw-bold p1">USER <br> MANAGEMENT</p>
                             <div class="admin-box-link mp-4">
-                                <a class="text-dark" href=""><i class="fa-solid fa-circle-arrow-right fs-4"> 100</i></a>
+                                <a class="text-dark" href=""><i class="fa-solid fa-circle-arrow-right fs-4"> 10</i></a>
                             </div>
                         </div>
                         <div class="grid-three-box admin-green">
@@ -138,7 +138,7 @@
                         <div class="grid-three-box admin-violet">
                             <p class="fw-bold p1">PAYMENT <br> MANAGEMENT</p>
                             <div class="admin-box-link mp-4">
-                                <a class="text-dark" href=""><i class="fa-solid fa-circle-arrow-right fs-4"> 100</i></a>
+                                <a class="text-dark" href=""><i class="fa-solid fa-circle-arrow-right fs-4"> 30</i></a>
                             </div>
                         </div>
                     </div>
@@ -146,8 +146,8 @@
 
 
                     <div class="center-second mt-4 pt-4">
-                        <p class="fs-5">Latest Booking Record</p>
-                        <p class="fs-6" style="color: gray">Top 3 latest booking record you can click view button to redirect to booking management page</p>
+                        <p class="fs-5">New Facilities</p>
+                        <p class="fs-6" style="color: gray">New facilities added you can click view button to redirect to booking management page</p>
 
                         <div class="latest-booking">
                             
@@ -159,7 +159,7 @@
                                     <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores atque eveniet voluptates deleniti fugiat pariatur?</p>
                                 </div>
                                 <div class="info-two">
-                                    <p class="fs-4" style="color: gray"><i class="fa-solid fa-circle-right"></i></p>
+                                    <p class="fs-4"><i class="fa-solid fa-circle-right green"></i></p>
                                 </div>
                             </div>
 
@@ -172,7 +172,7 @@
                                     <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores atque eveniet voluptates deleniti fugiat pariatur?</p>
                                 </div>
                                 <div class="info-two">
-                                    <p class="fs-4" style="color: gray"><i class="fa-solid fa-circle-right"></i></p>
+                                    <p class="fs-4"><i class="fa-solid fa-circle-right green"></i></p>
                                 </div>
                             </div>
 
@@ -184,7 +184,7 @@
                                     <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores atque eveniet voluptates deleniti fugiat pariatur?</p>
                                 </div>
                                 <div class="info-two">
-                                    <p class="fs-4" style="color: gray"><i class="fa-solid fa-circle-right"></i></p>
+                                    <p class="fs-4"><i class="fa-solid fa-circle-right green"></i></p>
                                 </div>
                             </div>
 
@@ -194,7 +194,21 @@
                 </div>
 
                 <div class="admin-right col-xl-3 col-sm-12">
+                    <li><a href="" class="text-light fs-6 fw-bold"> Latest Reason</a></li>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p class="fs-6 mt-4" style="color: gray">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum corporis sunt quibusdam quod quam ipsum sequi, nulla cumque aliquid recusandae sit culpa facilis, ratione dolores vero, tenetur mollitia sapiente. "</p>
 
+                            <p class="fs-6 mt-4" style="color: gray">" Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi eum corporis sunt quibusdam quod quam ipsum sequi, nulla cumque aliquid recusandae sit culpa facilis, ratione dolores vero, tenetur mollitia sapiente. "</p>
+
+
+                            <a href="" class="btn btn-success btn-sm">Refund</a>
+                        </div>
+
+                        <div class="col-sm-12">
+                            
+                        </div>
+                    </div>
                 </div>
 
             </div>
